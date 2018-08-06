@@ -1681,7 +1681,7 @@
     .xs-padding-seven{padding:4% !important}
     .xs-padding-eight {padding:4.5% !important}
     .xs-padding-nine {padding:5% !important}
-    .xs-padding-ten{ padding:5.5% !important}
+    .xs-padding-ten{ padding:5.5% !important; height: auto !important;}
     .xs-padding-eleven{ padding:6% !important}
     .xs-padding-twelve{ padding:6.5% !important}
     .xs-padding-thirteen{ padding:7% !important}
