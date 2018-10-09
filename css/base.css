@@ -430,7 +430,7 @@ h6 { font-size:18px; line-height:23px}
 
 
 /* background image */
-.cover-background { background-position: center center !important; background-repeat: no-repeat !important; background-size: cover !important; overflow: hidden; position: relative;}
+.cover-background { background-position: center center !important; background-repeat: no-repeat !important; background-size: cover !important; overflow: hidden; position: relative; margin-top: 100px;}
 .fix-background { background-attachment: fixed !important; background-position: center center; background-repeat: no-repeat !important; background-size: cover !important; overflow: hidden; position: relative;}
 
 /* ===================================
@@ -1157,7 +1157,7 @@ section {border-bottom:1px solid #ececec}
     OWL Carousel
 ====================================== */
 
-.owl-bg-img {display: block; overflow: hidden; position: relative; width: 100%;}
+.owl-bg-img {display: block; position: relative; width: 100%;}
 .owl-buttons .owl-prev {position: absolute; top: 50%; margin-top:-18px; left: 70px; font-size: 35px; color: #fff}
 .owl-buttons .owl-next {position: absolute; top: 50%; right:70px; font-size: 35px; color: #fff; margin-top:-18px;}
 .owl-pagination {position: absolute; bottom: 35px; text-align: center; width: 100%;}
@@ -1433,6 +1433,7 @@ dfn {
 h1 {
     margin: .67em 0;
     font-size: 2em
+    text-shadow: 0 30px 30px rgba(0, 0, 0, 0.4);
 }
 
 mark {
@@ -6253,17 +6254,24 @@ textarea.input-group-sm>.input-group-btn>.btn {
     position: fixed;
     min-height: 50px;
     margin-bottom: 20px;
-    border: 1px solid transparent
+    border: 1px solid transparent;
+    padding: 20px 0 20px;
+    z-index: 999;
+    width: 100%;
 }
 
 @media (min-width:768px) {
     .navbar {
+<<<<<<< HEAD
     padding: 20px 0 20px;
     z-index: 999;
     width: 100%;
     border-radius: 0;
     border: 0;
     border-radius: 4px
+=======
+        position: fixed;
+>>>>>>> 955d477dc818fa18c56fd5b22d1c2b6b78a542ba
     }
 }
 
