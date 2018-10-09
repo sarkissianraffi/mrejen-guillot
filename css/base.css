@@ -2954,7 +2954,8 @@ h6 small {
 
 .h1,
 h1 {
-    font-size: 36px
+    font-size: 36px;
+    text-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
 }
 
 .h2,
@@ -6249,7 +6250,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .navbar {
-    position: relative;
+    position: fixed;
     min-height: 50px;
     margin-bottom: 20px;
     border: 1px solid transparent
@@ -6257,7 +6258,12 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar {
-        border-radius: 4px
+    padding: 20px 0 20px;
+    z-index: 999;
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    border-radius: 4px
     }
 }
 
